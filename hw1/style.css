@@ -1,0 +1,85 @@
+.topbar {
+    background-color: #FEDFC0;
+    overflow: hidden;
+  }
+  
+  .topbar a {
+    float: left;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+    color: #fff;
+	user-select: none; /* Убираем текстовое выделение */
+	text-decoration: none;	/* Убираем подчеркивание */
+	outline: none; /* Убираем контур вокруг ссылки */
+	background-color: #fa8e47; /* Цвет фона */
+    font-size: 20px;
+    line-height: 22px;
+  }
+  
+  .topbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .product-list {
+    display: grid;
+    grid-template-columns: repeat(3, 420px);
+    list-style-type: none;
+    margin: 0;
+    margin-bottom: 24px;
+    padding: 0;
+    gap: 20px;
+  }
+  
+  .product-card {
+    background-color: #ffffff;
+  }
+  
+  .product-card-link {
+    text-decoration: none;
+  }
+  
+  .product-card-title {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #2f2d33;
+  }
+  
+  .product-card-about {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #4d3291;
+    text-transform: initial;
+  }
+
+  a {
+    text-decoration: none;
+  }
+  
+  h1 {
+    color: #222222;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
+  }
+  
+  h2 {
+    color: rgb(0, 0, 0);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+  }
+  
+  p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7d7987;
+  }
