@@ -1,5 +1,5 @@
 .topbar {
-    background-color: #FEDFC0;
+    background-color: #a5a5a5;
     overflow: hidden;
   }
   
@@ -8,13 +8,13 @@
     text-align: center;
     padding: 14px 50px;
     text-decoration: none;
-    color: #fff;
-	user-select: none; /* Убираем текстовое выделение */
-	text-decoration: none;	/* Убираем подчеркивание */
-	outline: none; /* Убираем контур вокруг ссылки */
-	background-color: #fa8e47; /* Цвет фона */
-    font-size: 20px;
-    line-height: 22px;
+    color: cornflowerblue;
+	  user-select: none; /* Убираем текстовое выделение */
+	  text-decoration: none;	/* Убираем подчеркивание */
+	  outline: none; /* Убираем контур вокруг ссылки */
+	  background-color: #e0e0e0; /* Цвет фона */
+    font-size: 16px;
+    line-height: 20px;
   }
   
   .topbar a:hover {
@@ -68,18 +68,18 @@
     font-weight: bold;
   }
   
-  h2 {
-    color: rgb(0, 0, 0);
+  .welcome {
+    color: coral;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 80px;
   }
   
-  p {
+  .paragraph {
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
     line-height: 30px;
-    color: #7d7987;
+    color: #7D7987;
   }
