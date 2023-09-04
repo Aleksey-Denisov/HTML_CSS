@@ -111,7 +111,8 @@ main {
     height: 50px;
     background: #F25822;
     box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
-    border-radius: 50px;   
+    border-radius: 50px;
+    border: none;   
     font-family: 'Gilroy-Bold';
     font-size: 15px;
     line-height: 18px;
