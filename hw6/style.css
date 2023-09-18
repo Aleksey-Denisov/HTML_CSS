@@ -236,6 +236,45 @@ span.h2pink {
 .prod_image_cont{
     position: relative;
 }
+.prod_image_cont:before {
+    content:"";
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;left:0;right:0;
+    background-color:rgba(0,0,0,0);
+  }
+  .prod_image_cont:hover::before {
+    background: rgba(58, 56, 56, 0.86);
+  }
+  .prod_image_cont img {
+    display:block;
+  }
+  .prod_image_cont .btn {
+    width: 138px;
+    height: 43px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    opacity:0;
+    background: none;
+    border: 1px solid #FFFFFF;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+  } 
+  .prod_image_cont:hover button {   
+    opacity: 1;
+  }
 
 .card_text {
     background-color: #f8f8f8;
@@ -295,3 +334,76 @@ span.h2pink {
     background: none;
 }
 
+@media (max-width: 1024px) {
+    .container {
+        width: 736px;
+    }
+
+    .top_container {
+        width: 768px;
+    }
+
+    .logo {
+        margin-left: 32px;
+    }
+
+    .head_buttons {
+        margin-right: 32px;
+    }
+
+    .head_title {
+        height: 368px;
+    }
+    
+    .image {
+        min-width: 386px;
+    }
+
+    .right_side_head {
+        display: flex;
+        flex-direction: row;
+        margin-left: 39px;
+        margin-top: 138px;
+        margin-bottom: 138px;
+        margin-right: 33px;
+        width: 311px;
+        height: 92px;
+    }
+    
+    .text {
+        font-size: 44px;
+        line-height: 0.9;
+    }
+    
+    span.h2 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .top_cards {
+        height: 303px;
+        gap: 20px;
+    }
+
+    .products {
+        margin-top: 110px;
+    }
+
+    .main_title p {
+        margin-top: 3px;
+    }
+    
+    .all_cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 16px;
+        margin-top: 72px;
+    }
+    
+    .all_prod_button {
+        margin-top: 33px;
+        margin-bottom: 65px;
+    }
+
+}
